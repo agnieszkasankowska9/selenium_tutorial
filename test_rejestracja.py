@@ -47,7 +47,7 @@ class RegisterNewUserTest(unittest.TestCase):
         self.assertEqual(TestData.EMAIL, email_actual)
 
         # 7.hasło
-        self.driver.find_element(By.XPATH, '//*[@id="passwd"]').send_keys(TestData.PASSWORD)
+        self.driver.find_element(By.XPATH, '//*[@id="passwd"]').send_keys(TestData.PASSWORD[:4])
 
         # 8. data urodzenia
         days = Select(self.driver.find_element(By.ID, "days"))

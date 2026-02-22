@@ -8,7 +8,7 @@ class TestData:
     GENDER = Gender.FEMALE
     FIRST_NAME = "Agnieszka"
     LAST_NAME = "Nowak"
-    PASSWORD = 'j'
+    PASSWORD = 'j5ABCd123@!'
     BIRTH_DAY = "12"
     BIRTH_MONTH = "2"
     BIRTH_YEAR = "1980"
